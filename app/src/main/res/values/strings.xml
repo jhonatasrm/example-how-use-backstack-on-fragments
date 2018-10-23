@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BackStack on Fragments</string>
+    <string name="top_fragment">TOP</string>
+    <string name="bottom_fragment">BOTTOM</string>
+</resources>
