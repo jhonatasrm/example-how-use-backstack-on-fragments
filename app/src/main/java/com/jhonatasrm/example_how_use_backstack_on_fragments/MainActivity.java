@@ -34,12 +34,14 @@ public class MainActivity extends Activity {
 
     }
 
+    // starts the fragment in top
     public void initiateTopFragment(View view) {
         ft.add( bf, "bf" );
         ft.addToBackStack( "bf" );
         ft.commit();
     }
-
+    
+    // starts the fragment in bottom
     public void initiateBottomFragment(View view) {
         ft.add( tf, "tf" );
         ft.addToBackStack( "tf" );
